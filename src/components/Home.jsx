@@ -1,14 +1,8 @@
-import { motion, useScroll, useSpring   } from "framer-motion";
+import { motion } from "framer-motion";
 export default function Home (){
-    const { scrollYProgress } = useScroll()
-    const scaleX = useSpring(scrollYProgress, {
-        stiffness: 100,
-        damping: 30,
-        restDelta: 0.001
-    });
     return(<>
         <div>
-            <motion.path className="fixed top-0 left-0 right-0 h-[10px] bg-red-800 transform origin-top-left" style={{ scaleX, originX: 0}}/>
+            
             ini Home
             <motion.div
                 initial={{ opacity: 0, y: -100 }} // Properti awal animasi

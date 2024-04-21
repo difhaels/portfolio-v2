@@ -585,14 +585,22 @@ video {
   gap: 1.25rem;
 }
 
+.gap-7 {
+  gap: 1.75rem;
+}
+
 .bg-red-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(153 27 27 / var(--tw-bg-opacity));
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.px-1 {
+  padding-left: 0.25rem;
+  padding-right: 0.25rem;
+}
+
+.pt-5 {
+  padding-top: 1.25rem;
 }
 
 .text-2xl {
@@ -603,6 +611,14 @@ video {
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-\[1\.3rem\] {
+  font-size: 1.3rem;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .text-red-500 {
@@ -618,6 +634,44 @@ video {
   transition-duration: 150ms;
 }
 
+/* * start */
+
 ::-webkit-scrollbar {
   display: none;
 }
+
+/* * end */
+
+/* navbar start */
+
+.navbar-fixed {
+  border-radius: 9999px;
+  --tw-bg-opacity: 0.7;
+  padding-left: 3.5rem;
+  padding-right: 3.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
+  transition: all 0.5s ease;
+}
+
+.navbar-unfixed {
+  border-radius: 9999px;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  transition: all 0.5s ease;
+}
+
+.qmark {
+  --tw-text-opacity: 1;
+  color: rgb(203 29 205 / var(--tw-text-opacity));
+  opacity: 0;
+}
+
+.group:hover .qmark {
+  opacity: 1;
+}
+
+/* navbar end */

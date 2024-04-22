@@ -4,11 +4,12 @@ import linkedin from './image/svg/linkedin.svg';
 import mail from './image/svg/mail.svg';
 import github from './image/svg/github.svg';
 import mouse from './image/svg/mouse.svg';
+import quotebg from './image/png/quotebg.png';
 
 export default function Home (){
     return(<>
         <div>
-            <div className='fixed top-0 left-10'>
+            <div className='absolute top-0 left-10'>
                 <div className='bg-[#9370DB] w-1 h-96 mx-auto'></div>
                 <div className='flex flex-col gap-2 mt-2'>
                     <img src={linkedin} alt="linkedin" className='w-5 h-5'/>
@@ -43,6 +44,12 @@ export default function Home (){
                     </a>
                 </div>
                 <img src={mouse} alt="mouse" className='w-10 h-10 m-auto mt-7' />
+            </div>
+            <div className='mb-20 mt-16'>
+        
+                <div className='-skew-y-3'>
+                    <img src={quotebg} alt="quotebg" className='h-96 w-full object-cover blur-[1.8px] brightness-50'/>
+                </div>
             </div>
         </div>
     </>)

@@ -1,3 +1,5 @@
+import { motion } from "framer-motion";
+
 import agung from './image/png/agung.png';
 import waving from './image/svg/waving.svg';
 import linkedin from './image/svg/linkedin.svg';
@@ -27,9 +29,15 @@ export default function Home (){
             </div>
             <div className='mt-32 text-center w-1/2 mx-auto'> 
                 <img src={agung} alt="agung saputra" className="rounded-full h-56 w-56 mx-auto border-2" />
-                <div className='flex justify-center items-center gap-2 pt-10'>
+                <div className='flex justify-center items-center gap-3 pt-10'>
                     <h1 className='font-bold text-3xl'>Hi, I'm Agung</h1>
-                    <img src={waving} alt="waving" className='h-10 w-10' />
+                    <motion.img
+                    src={waving}
+                    alt="mouse"
+                    className="w-10 h-10"
+                    animate={{ x: [0, -3, 0] }} // Animasi bergerak ke atas dan ke bawah
+                    transition={{ repeat: Infinity, duration: 3.0 }} // Mengatur animasi yang di-loop
+                />
                 </div>
                 <h1 className='font-bold text-3xl text-[#9370DB] pt-3'>Fullstack Developer based in Indonesian</h1>
                 <h1 className='text-xl pt-3'>My name is Agung Saputra, a fullstack developer with the goal of advancing my career and participating in inspiring projects. Here, I showcase my work and my passion for web development. Let's shape digital solutions together and pave the way for the future!</h1>
@@ -43,7 +51,13 @@ export default function Home (){
                         <span className='text-base font-bold'>My Project</span>
                     </a>
                 </div>
-                <img src={mouse} alt="mouse" className='w-10 h-10 m-auto mt-7' />
+                <motion.img
+                    src={mouse}
+                    alt="mouse"
+                    className="w-10 h-10 m-auto mt-8"
+                    animate={{ y: [0, -8, 0] }} // Animasi bergerak ke atas dan ke bawah
+                    transition={{ repeat: Infinity, duration: 1.5 }} // Mengatur animasi yang di-loop
+                />
             </div>
             
             <div className='relative'>

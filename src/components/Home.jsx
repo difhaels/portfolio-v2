@@ -8,7 +8,7 @@ import quotebg from './image/png/quotebg.png';
 
 export default function Home (){
     return(<>
-        <div>
+        <div className='mb-96'>
             <div className='absolute top-0 left-10'>
                 <div className='bg-[#9370DB] w-1 h-96 mx-auto'></div>
                 <div className='flex flex-col gap-2 mt-2'>
@@ -45,11 +45,21 @@ export default function Home (){
                 </div>
                 <img src={mouse} alt="mouse" className='w-10 h-10 m-auto mt-7' />
             </div>
-            <div className='mb-20 mt-16'>
-        
-                <div className='-skew-y-3'>
+            
+            <div className='relative'>
+                <h1 className='rotate-90 absolute -top-64 -right-24 font-senibold text-xl z-10'>agungsaputradifh@gmail.com</h1>
+                <div className='bg-[#9370DB] w-1 h-72 mx-auto absolute right-10 -top-32'></div>
+            </div>
+            
+            <div className='mb-20 mt-16 relative z-10'>
+                <div className='-skew-y-3 '>
                     <img src={quotebg} alt="quotebg" className='h-96 w-full object-cover blur-[1.8px] brightness-50'/>
                 </div>
+            </div>
+
+            <div className='relative'>
+                
+                <div className='bg-[#9370DB] w-1 h-64 mx-auto absolute right-10 -top-32'></div>
             </div>
         </div>
     </>)

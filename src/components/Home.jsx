@@ -35,11 +35,17 @@ export default function Home (){
                     src={waving}
                     alt="mouse"
                     className="w-10 h-10"
-                    animate={{ x: [0, -3, 0] }} // Animasi bergerak ke atas dan ke bawah
-                    transition={{ repeat: Infinity, duration: 3.0 }} // Mengatur animasi yang di-loop
+                    animate={{ x: [0, -3, 0] }} 
+                    transition={{ repeat: Infinity, duration: 3.0 }} 
                 />
                 </div>
-                <h1 className='font-bold text-3xl text-[#9370DB] pt-3'>Fullstack Developer based in Indonesian</h1>
+                <motion.h1
+                    className="font-bold text-3xl pt-3"
+                    animate={{ color: ["#9370DB", "#CB1DCD", "#E455AE"] }}
+                    transition={{ repeat: Infinity, duration: 5.0 }} 
+                >
+                    Fullstack Developer based in Indonesian
+                </motion.h1>
                 <h1 className='text-xl pt-3'>My name is Agung Saputra, a fullstack developer with the goal of advancing my career and participating in inspiring projects. Here, I showcase my work and my passion for web development. Let's shape digital solutions together and pave the way for the future!</h1>
                 <div className='flex justify-center gap-3 mt-4'>
                     <a href='yt.com' className='flex justify-center items-center gap-3 bg-[#9370DB] text-slate-50 px-4 py-2 rounded-lg'>
@@ -55,8 +61,8 @@ export default function Home (){
                     src={mouse}
                     alt="mouse"
                     className="w-10 h-10 m-auto mt-8"
-                    animate={{ y: [0, -8, 0] }} // Animasi bergerak ke atas dan ke bawah
-                    transition={{ repeat: Infinity, duration: 1.5 }} // Mengatur animasi yang di-loop
+                    animate={{ y: [0, -8, 0] }} 
+                    transition={{ repeat: Infinity, duration: 1.5 }} 
                 />
             </div>
             

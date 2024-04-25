@@ -10,8 +10,8 @@ import quotebg from './image/png/quotebg.png';
 
 export default function Home (){
     return(<>
-        <div className='mb-96'>
-            <div className='absolute top-0 left-10'>
+        <div className='mb-80 relative'>
+            <div className='absolute -top-32 left-10'>
                 <div className='bg-[#9370DB] w-1 h-96 mx-auto'></div>
                 <div className='flex flex-col gap-2 mt-2'>
                     <a href="yt.com">
@@ -86,11 +86,9 @@ export default function Home (){
                 </div>
             </div>
 
-            <div className='relative'>
-                
-                <div className='bg-[#9370DB] w-1 h-64 mx-auto absolute right-10 -top-32'></div>
-                <div className='bg-[#9370DB] w-[75%] h-1 mx-auto absolute right-10 top-32'></div>
-            </div>
+            <div className="absolute -bottom-40 right-10  w-[65%] h-64 border-r-4 border-b-4 border-[#9370DB]"></div>
+            <div className="absolute -bottom-80 right-10  w-[65%] h-40 border-l-4 border-[#9370DB]"></div>
+
         </div>
     </>)
 }

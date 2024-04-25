@@ -593,6 +593,70 @@ video {
   top: 8rem;
 }
 
+.-top-10 {
+  top: -2.5rem;
+}
+
+.-top-28 {
+  top: -7rem;
+}
+
+.-top-\[7\.5rem\] {
+  top: -7.5rem;
+}
+
+.-top-\[7\.6rem\] {
+  top: -7.6rem;
+}
+
+.-top-\[7\.8rem\] {
+  top: -7.8rem;
+}
+
+.bottom-0 {
+  bottom: 0px;
+}
+
+.-bottom-96 {
+  bottom: -24rem;
+}
+
+.-bottom-72 {
+  bottom: -18rem;
+}
+
+.-bottom-64 {
+  bottom: -16rem;
+}
+
+.-bottom-56 {
+  bottom: -14rem;
+}
+
+.-bottom-52 {
+  bottom: -13rem;
+}
+
+.-bottom-44 {
+  bottom: -11rem;
+}
+
+.-bottom-40 {
+  bottom: -10rem;
+}
+
+.-bottom-36 {
+  bottom: -9rem;
+}
+
+.-bottom-3 {
+  bottom: -0.75rem;
+}
+
+.-bottom-80 {
+  bottom: -20rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -638,6 +702,10 @@ video {
   margin-top: 2rem;
 }
 
+.mb-80 {
+  margin-bottom: 20rem;
+}
+
 .flex {
   display: flex;
 }
@@ -680,6 +748,38 @@ video {
 
 .h-\[10px\] {
   height: 10px;
+}
+
+.h-60 {
+  height: 15rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.h-52 {
+  height: 13rem;
+}
+
+.h-48 {
+  height: 12rem;
+}
+
+.h-44 {
+  height: 11rem;
+}
+
+.h-\[26rem\] {
+  height: 26rem;
+}
+
+.h-\[96\] {
+  height: 96;
+}
+
+.h-40 {
+  height: 10rem;
 }
 
 .w-1 {
@@ -732,6 +832,26 @@ video {
 
 .w-28 {
   width: 7rem;
+}
+
+.w-52 {
+  width: 13rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-\[65\%\] {
+  width: 65%;
 }
 
 .origin-top-left {
@@ -828,6 +948,18 @@ video {
   border-width: 4px;
 }
 
+.border-b-4 {
+  border-bottom-width: 4px;
+}
+
+.border-r-4 {
+  border-right-width: 4px;
+}
+
+.border-l-4 {
+  border-left-width: 4px;
+}
+
 .border-blue-300 {
   --tw-border-opacity: 1;
   border-color: rgb(147 197 253 / var(--tw-border-opacity));
@@ -858,6 +990,11 @@ video {
   border-color: rgb(237 236 236 / var(--tw-border-opacity));
 }
 
+.border-\[\#9370DB\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(147 112 219 / var(--tw-border-opacity));
+}
+
 .bg-\[\#9370DB\] {
   --tw-bg-opacity: 1;
   background-color: rgb(147 112 219 / var(--tw-bg-opacity));
@@ -881,6 +1018,11 @@ video {
 .bg-\[\#EBEBEB\] {
   --tw-bg-opacity: 1;
   background-color: rgb(235 235 235 / var(--tw-bg-opacity));
+}
+
+.bg-red-600 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(220 38 38 / var(--tw-bg-opacity));
 }
 
 .bg-opacity-55 {

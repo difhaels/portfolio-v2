@@ -89,6 +89,7 @@ export default function Home (){
             <div className='relative'>
                 
                 <div className='bg-[#9370DB] w-1 h-64 mx-auto absolute right-10 -top-32'></div>
+                <div className='bg-[#9370DB] w-[75%] h-1 mx-auto absolute right-10 top-32'></div>
             </div>
         </div>
     </>)

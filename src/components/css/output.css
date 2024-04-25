@@ -589,6 +589,14 @@ video {
   top: 0px;
 }
 
+.top-32 {
+  top: 8rem;
+}
+
+.top-1 {
+  top: 0.25rem;
+}
+
 .z-10 {
   z-index: 10;
 }
@@ -670,6 +678,10 @@ video {
   height: 10px;
 }
 
+.h-1 {
+  height: 0.25rem;
+}
+
 .w-1 {
   width: 0.25rem;
 }
@@ -696,6 +708,30 @@ video {
 
 .w-full {
   width: 100%;
+}
+
+.w-64 {
+  width: 16rem;
+}
+
+.w-96 {
+  width: 24rem;
+}
+
+.w-\[70\%\] {
+  width: 70%;
+}
+
+.w-\[80\%\] {
+  width: 80%;
+}
+
+.w-\[76\%\] {
+  width: 76%;
+}
+
+.w-\[75\%\] {
+  width: 75%;
 }
 
 .origin-top-left {

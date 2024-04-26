@@ -14,63 +14,92 @@ import canva from './image/svg/canva.svg'
 
 export default function Skills(){
     return (<>
-        <div className='mb-20'>
-            {/* <div>
-                <h1>Skills</h1>
-                <h1>My TechStack and Skills</h1>
-            </div> */}
+        <div className='relative mb-[500px]'>
 
-            <div className="flex justify-center items-center gap-10">
-                <div className='p-8 w-1/3 bg-[#EBEBEB] rounded-2xl border-2 shadow-2xl'>
-                    <h1>WebDev</h1>
+            <div className='w-fit text-center ml-[23%] py-5'>
+                <h1 className='text-xl font-semibold'><span className="text-[#CB1DCD]">♗</span><span className="px-1">Skills</span><span className="text-[#CB1DCD]">♗</span></h1>
+                <h1 className='text-2xl font-bold'>My TechStack and Skills</h1>
+            </div>
+            <div className="relative">
+                <div className='px-8 pb-8 w-1/3 bg-[#EBEBEB] rounded-2xl border-2 shadow-2xl absolute left-[15%]'>
+                <h1 className='text-xl text-center font-bold my-5'>Web Develpment</h1>
                     <div className='grid grid-cols-3 justify-center items-center gap-4'>
-                        <div className='border-4 border-blue-300 px-5 py-5 rounded-2xl'>
-                            <img src={html} alt="html"/>
+                        <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <a href="yt.com">
+                                <img src={html} alt="html"/>
+                            </a>
                         </div>
-                        <div className='border-4 border-blue-300 px-5 py-5 rounded-2xl'>
-                            <img src={css} alt="css"/>
+                        <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <a href="yt.com">
+                                <img src={css} alt="css"/>
+                            </a>
                         </div>
-                        <div className='border-4 border-blue-300 px-5 py-5 rounded-2xl'>
-                            <img src={javascript} alt="javascript"/>
+                        <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <a href="yt.com">
+                                <img src={javascript} alt="javascript"/>
+                            </a>
                         </div>
-                        <div className='border-4 border-blue-300 px-5 py-5 rounded-2xl'>
-                            <img src={tailwindcss} alt="tailwindcss"/>
+                        <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <a href="yt.com">
+                                <img src={tailwindcss} alt="tailwindcss"/>
+                            </a>
                         </div>
-                        <div className='border-4 border-blue-300 px-5 py-5 rounded-2xl'>
-                            <img src={bootstrap} alt="bootstrap"/>
+                        <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <a href="yt.com">
+                                <img src={bootstrap} alt="bootstrap"/>
+                            </a>
                         </div>
-                        <div className='border-4 border-blue-300 px-5 py-5 rounded-2xl'>
-                            <img src={react} alt="react"/>
+                        <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <a href="yt.com">
+                                <img src={react} alt="react"/>
+                            </a>
                         </div>
-
                         
                     </div>
                 </div>
-                <div className='p-8 w-1/3 bg-[#EBEBEB] rounded-2xl border-2 shadow-2xl'>
-                    <h1>WebDev</h1>
+
+                <div className='px-8 pb-8 w-1/3 bg-[#EBEBEB] rounded-2xl border-2 shadow-2xl absolute right-[15%] -top-16 z-10'>
+                    <h1 className='text-xl text-center font-bold my-5'>Other</h1>
                     <div className='grid grid-cols-3 justify-center items-center gap-4'>
-                        <div className='border-4 border-blue-300 px-5 py-5 rounded-2xl'>
-                            <img src={nodejs} alt="nodejs"/>
+                        <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <a href="yt.com">
+                                <img src={nodejs} alt="nodejs"/>
+                            </a>
                         </div>
-                        <div className='border-4 border-blue-300 px-5 py-5 rounded-2xl'>
-                            <img src={php} alt="php"/>
+                        <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <a href="yt.com">
+                                <img src={php} alt="php"/>
+                            </a>
                         </div>
-                        <div className='border-4 border-blue-300 px-5 py-5 rounded-2xl'>
-                            <img src={laravel} alt="css"/>
+                        <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <a href="yt.com">
+                                <img src={laravel} alt="laravel"/>
+                            </a>
                         </div>
-                        <div className='border-4 border-blue-300 px-5 py-5 rounded-2xl'>
-                            <img src={mysql} alt="mysql"/>
+                        <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <a href="yt.com">
+                                <img src={mysql} alt="mysql"/>
+                            </a>
                         </div>
-                        <div className='border-4 border-blue-300 px-5 py-5 rounded-2xl'>
-                            <img src={java} alt="java"/>
+                        <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <a href="yt.com">
+                                <img src={java} alt="java"/>
+                            </a>
                         </div>
-                        <div className='border-4 border-blue-300 px-5 py-5 rounded-2xl'>
-                            <img src={canva} alt="canva"/>
+                        <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <a href="yt.com">
+                                <img src={canva} alt="canva"/>
+                            </a>
                         </div>
                     </div>
                 </div>
-
             </div>
+
+            <div>
+                <div className="absolute -bottom-[470px] right-[31%] w-[18%] h-64 border-r-4 border-b-4 border-[#9370DB]"></div>
+                <div className="absolute -bottom-[630px] right-[31%] w-[18%] h-40 border-l-4 border-[#9370DB]"></div>
+            </div>
+
         </div>
     </>)
 }

@@ -144,8 +144,8 @@ export default function Skills(){
             </div>
 
             <div>
-                <div className="absolute -bottom-[110px] right-[31%] w-[18%] h-80 border-r-4 border-b-4 border-[#9370DB]"></div>
-                <div className="absolute -bottom-[270px] right-[31%] w-[18%] h-40 border-l-4 border-[#9370DB]"></div>
+                <div className="absolute -bottom-[110px] right-[31%] w-[19.15%] h-80 border-r-4 border-b-4 border-[#9370DB]"></div>
+                <div className="absolute -bottom-[270px] right-0 left-0 mx-auto w-1 h-40 bg-[#9370DB]"></div>
             </div>
 
         </div>

@@ -25,64 +25,64 @@ export default function Skills(){
 
                 <div className="grid gap-10">    
                     <div className='px-8 pb-8 bg-[#EBEBEB] rounded-2xl border-2 shadow-2xl w-full'>
-                        <h1 className='text-xl text-center font-bold my-5'>Web Develpment</h1>
+                        <h1 className='text-xl text-center font-bold my-5'>Web Tools</h1>
                         <div className='grid grid-cols-3 justify-center items-center gap-4'>
-                            <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <div className='border-4 border-[#D76D3C] px-5 py-5 rounded-2xl hover:scale-110'>
                                 <a href="yt.com">
                                     <img src={html} alt="html"/>
                                 </a>
                             </div>
-                            <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <div className='border-4 border-[#4471B0] px-5 py-5 rounded-2xl hover:scale-110'>
                                 <a href="yt.com">
                                     <img src={css} alt="css"/>
                                 </a>
                             </div>
-                            <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <div className='border-4 border-[#E8DB69] px-5 py-5 rounded-2xl hover:scale-110'>
                                 <a href="yt.com">
                                     <img src={javascript} alt="javascript"/>
                                 </a>
                             </div>
-                            <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <div className='border-4 border-[#74BBF2] px-5 py-5 rounded-2xl hover:scale-110'>
                                 <a href="yt.com">
                                     <img src={tailwindcss} alt="tailwindcss"/>
                                 </a>
                             </div>
-                            <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <div className='border-4 border-[#7129ED] px-5 py-5 rounded-2xl hover:scale-110'>
                                 <a href="yt.com">
                                     <img src={bootstrap} alt="bootstrap"/>
                                 </a>
                             </div>
-                            <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <div className='border-4 border-[#B86C97] border-dashed px-5 py-5 rounded-2xl'>
                                 <a href="yt.com">
                                     <img src={sass} alt="sass"/>
                                 </a>
                             </div>
-                            <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <div className='border-4 border-[#4679C6] border-dashed px-5 py-5 rounded-2xl'>
                                 <a href="yt.com">
                                     <img src={typescript} alt="typescript"/>
                                 </a>
                             </div>
-                            <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <div className='border-4 border-[#90D8F7] px-5 py-5 rounded-2xl hover:scale-110'>
                                 <a href="yt.com">
                                     <img src={react} alt="react"/>
                                 </a>
                             </div>
-                            <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <div className='border-4 border-[#6FB587] border-dashed px-5 py-5 rounded-2xl'>
                                 <a href="yt.com">
                                     <img src={vuejs} alt="vuejs"/>
                                 </a>
                             </div>
-                            <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <div className='border-4 border-[#6D9F51] px-5 py-5 rounded-2xl hover:scale-110'>
                                 <a href="yt.com">
                                     <img src={nodejs} alt="nodejs"/>
                                 </a>
                             </div>
-                            <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <div className='border-4 border-[#73AB56] border-dashed px-5 py-5 rounded-2xl'>
                                 <a href="yt.com">
                                     <img src={mongodb} alt="mongodb"/>
                                 </a>
                             </div>
-                            <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <div className='border-4 border-[#D45C49] border-dashed px-5 py-5 rounded-2xl'>
                                 <a href="yt.com">
                                     <img src={laravel} alt="laravel"/>
                                 </a>
@@ -103,32 +103,32 @@ export default function Skills(){
                     <div className='px-8 pb-8 bg-[#EBEBEB] rounded-2xl border-2 shadow-2xl -top-16 z-10 w-full h-fit'>
                         <h1 className='text-xl text-center font-bold my-5'>Other</h1>
                         <div className='grid grid-cols-3 justify-center items-center gap-4'>
-                            <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <div className='border-4 border-[#000000] border-dashed px-5 py-5 rounded-2xl'>
                                 <a href="yt.com">
                                     <img src={unrealengine} alt="unrealengine"/>
                                 </a>
                             </div>
-                            <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <div className='border-4 border-[#808080] border-dashed px-5 py-5 rounded-2xl'>
                                 <a href="yt.com">
                                     <img src={unity} alt="unity"/>
                                 </a>
                             </div>
-                            <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <div className='border-4 border-[#D17B2F] border-dashed px-5 py-5 rounded-2xl'>
                                 <a href="yt.com">
                                     <img src={blender} alt="blender"/>
                                 </a>
                             </div>
-                            <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <div className='border-4 border-[#71B4CF] border-dashed px-5 py-5 rounded-2xl'>
                                 <a href="yt.com">
                                     <img src={flutter} alt="flutter"/>
                                 </a>
                             </div>
-                            <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <div className='border-4 border-[#4B7FC6] border-dashed px-5 py-5 rounded-2xl'>
                                 <a href="yt.com">
                                     <img src={sqlite} alt="sqlite"/>
                                 </a>
                             </div>
-                            <div className='border-4 border-[#9370DB] px-5 py-5 rounded-2xl hover:scale-110'>
+                            <div className='border-4 border-[#171616] px-5 py-5 rounded-2xl hover:scale-110'>
                                 <a href="yt.com">
                                     <img src={github2} alt="github2"/>
                                 </a>
@@ -136,7 +136,7 @@ export default function Skills(){
                         </div>
                     </div>
                     <div className='w-fit bg-[#EBEBEB] rounded-2xl border-2 shadow-2xl mx-auto flex items-center gap-2 px-3 py-2 z-10'>
-                        <div className='h-4 w-4 bg-black rounded-full'></div>
+                        <div className='h-4 w-4 border-2 border-black border-dashed rounded-full'></div>
                         <span className='font-semibold'>Would</span>
                     </div>
                 </div>

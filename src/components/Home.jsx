@@ -81,6 +81,11 @@ export default function Home (){
             </div>
             
             <div className='mb-20 mt-16 relative z-10'>
+                <div>
+                    <span className="absolute top-16 z-10 text-[4rem] font-bold mx-56 text-center text-white tracking-tight leading-none">"The strongest is the one who never loses, Maybe I'm not the strongest, but I'd win"</span>
+                    <span className="z-10 text-center text-2xl text-slate-400 absolute top-72 left-0 right-0 texb">Agung Saputra</span>
+                </div>
+                
                 <div className='-skew-y-3 '>
                     <img src={quotebg} alt="quotebg" className='h-96 w-full object-cover blur-[1.8px] brightness-50'/>
                 </div>

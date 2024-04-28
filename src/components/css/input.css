@@ -6,6 +6,14 @@
 ::-webkit-scrollbar {
     display: none;
 }
+::-moz-selection { /* Code for Firefox */
+    background: #9370DB;
+    color: white;
+}
+::selection {
+    background: #9370DB;
+    color: white;
+}
 /* * end */
 
 /* navbar start */

@@ -145,7 +145,12 @@ export default function Skills(){
 
             <div>
                 <div className="absolute -bottom-[110px] right-[31%] w-[19.15%] h-80 border-r-4 border-b-4 border-[#9370DB]"></div>
-                <div className="absolute -bottom-[270px] right-0 left-0 mx-auto w-1 h-40 bg-[#9370DB]"></div>
+                <div className="absolute -bottom-[490px] right-0 left-0 mx-auto w-1 h-96 bg-[#9370DB]"></div>
+            </div>
+
+            <div>
+                <span className="absolute -bottom-[640px] right-0 left-0 text-[4rem] font-bold text-center tracking-tight leading-none mx-56">"Skill is just a Stepping Stone, Victory is when we get Paid"</span>
+                <div className="absolute -bottom-[1065px] right-0 left-0 mx-auto w-1 h-96 bg-[#9370DB]"></div>
             </div>
 
         </div>

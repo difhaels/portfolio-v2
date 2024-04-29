@@ -33,17 +33,9 @@
 /* navbar end */
 
 .swiper {
-    width: 240px;
-    height: 320px;
+    @apply w-[55%] h-[550px];
 }
 
 .swiper-slide {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 18px;
-    font-size: 22px;
-    font-weight: bold;
-    background-color: red;
-    color: #fff;
+    @apply flex justify-center items-center text-2xl font-bold rounded-3xl text-white bg-[#9370DB] shadow-2xl;
 }

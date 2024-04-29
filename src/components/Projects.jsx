@@ -18,21 +18,23 @@ import quotebg from './image/png/quotebg.png';
 export default function Projects() {
     return (
         <>
-            <div className='-skew-y-[4deg] mb-[500px]'>
-                    <img src={quotebg} alt="quotebg" className='h-[750px] w-full object-cover blur-[1.8px] brightness-50'/>
+            <div className=' relative'>
+                    <img src={quotebg} alt="quotebg" className='h-[750px] w-full object-cover blur-sm brightness-50 -skew-y-[4deg] '/>
+                    <div className="absolute left-0 right-0 top-28">
+                        <Swiper
+                            effect={"cards"}
+                            grabCursor={true}
+                            modules={[EffectCards]}
+                            loop={true}
+                            initialSlide={0}
+                            className="mySwiper"
+                        >
+                            <SwiperSlide>Slide 1</SwiperSlide>
+                            <SwiperSlide>Slide 2</SwiperSlide>
+                            <SwiperSlide>Slide 3</SwiperSlide>
+                        </Swiper>
+                    </div>
             </div>
-            <Swiper
-                effect={"cards"}
-                grabCursor={true}
-                modules={[EffectCards]}
-                loop={true}
-                initialSlide={0}
-                className="mySwiper"
-            >
-                <SwiperSlide>Slide 1</SwiperSlide>
-                <SwiperSlide>Slide 2</SwiperSlide>
-                <SwiperSlide>Slide 3</SwiperSlide>
-            </Swiper>
         </>
     );
 };

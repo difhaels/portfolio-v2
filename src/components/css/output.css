@@ -625,6 +625,10 @@ video {
   top: 4rem;
 }
 
+.top-28 {
+  top: 7rem;
+}
+
 .top-72 {
   top: 18rem;
 }
@@ -671,10 +675,6 @@ video {
 
 .mb-\[1000px\] {
   margin-bottom: 1000px;
-}
-
-.mb-\[500px\] {
-  margin-bottom: 500px;
 }
 
 .mt-16 {
@@ -1170,6 +1170,11 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.blur-sm {
+  --tw-blur: blur(4px);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .brightness-50 {
   --tw-brightness: brightness(.5);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
@@ -1246,19 +1251,25 @@ video {
 /* navbar end */
 
 .swiper {
-  width: 240px;
-  height: 320px;
+  height: 550px;
+  width: 55%;
 }
 
 .swiper-slide {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 18px;
-  font-size: 22px;
-  font-weight: bold;
-  background-color: red;
-  color: #fff;
+  border-radius: 1.5rem;
+  --tw-bg-opacity: 1;
+  background-color: rgb(147 112 219 / var(--tw-bg-opacity));
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 700;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+  --tw-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  --tw-shadow-colored: 0 25px 50px -12px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
 .hover\:-translate-y-1:hover {

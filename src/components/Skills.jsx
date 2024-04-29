@@ -20,7 +20,7 @@ import sqlite from './image/svg/sqlite.svg';
 
 export default function Skills(){
     return (<>
-        <div className='relative mb-[200px]'>
+        <div className='relative mb-[1200px] '>
             <div className="grid grid-cols-2 gap-10 mx-[15%] items-start">
 
                 <div className="grid gap-10">    

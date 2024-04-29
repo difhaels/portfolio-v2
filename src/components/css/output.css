@@ -693,6 +693,18 @@ video {
   margin-top: 2rem;
 }
 
+.mb-\[2000px\] {
+  margin-bottom: 2000px;
+}
+
+.mb-\[1500px\] {
+  margin-bottom: 1500px;
+}
+
+.mb-\[1200px\] {
+  margin-bottom: 1200px;
+}
+
 .flex {
   display: flex;
 }
@@ -749,6 +761,14 @@ video {
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
+}
+
+.h-auto {
+  height: auto;
+}
+
+.h-full {
+  height: 100%;
 }
 
 .w-1 {

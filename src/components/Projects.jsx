@@ -1,31 +1,38 @@
 // import Swiper core and required modules
-import { Navigation, Pagination, Scrollbar, A11y } from 'swiper/modules';
-
-import { Swiper, SwiperSlide } from 'swiper/react';
+// Import Swiper React components
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
 
 // Import Swiper styles
-import 'swiper/css';
-import 'swiper/css/navigation';
-import 'swiper/css/pagination';
-import 'swiper/css/scrollbar';
+import "swiper/css";
+import "swiper/css/effect-cards";
+
+
+// import required modules
+import { EffectCards } from "swiper";
+
+
+import quotebg from './image/png/quotebg.png';
+
 
 export default function Projects() {
     return (
-        <Swiper
-        // install Swiper modules
-        modules={[Navigation, Pagination, Scrollbar, A11y]}
-        spaceBetween={50}
-        slidesPerView={3}
-        navigation
-        pagination={{ clickable: true }}
-        scrollbar={{ draggable: true }}
-        onSwiper={(swiper) => console.log(swiper)}
-        onSlideChange={() => console.log('slide change')}
-        >
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-        </Swiper>
+        <>
+            <div className='-skew-y-[4deg] mb-[500px]'>
+                    <img src={quotebg} alt="quotebg" className='h-[750px] w-full object-cover blur-[1.8px] brightness-50'/>
+            </div>
+            <Swiper
+                effect={"cards"}
+                grabCursor={true}
+                modules={[EffectCards]}
+                loop={true}
+                initialSlide={0}
+                className="mySwiper"
+            >
+                <SwiperSlide>Slide 1</SwiperSlide>
+                <SwiperSlide>Slide 2</SwiperSlide>
+                <SwiperSlide>Slide 3</SwiperSlide>
+            </Swiper>
+        </>
     );
 };

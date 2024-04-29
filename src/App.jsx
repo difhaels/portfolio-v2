@@ -4,6 +4,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import './components/css/output.css';
 
+
 function App() {
   return (<>
     <Navbar/>

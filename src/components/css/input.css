@@ -31,3 +31,19 @@
     @apply text-[#CB1DCD] opacity-0 group-hover:opacity-100;
 }
 /* navbar end */
+
+.swiper {
+    width: 240px;
+    height: 320px;
+}
+
+.swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    background-color: red;
+    color: #fff;
+}

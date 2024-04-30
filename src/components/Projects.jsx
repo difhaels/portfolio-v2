@@ -19,7 +19,7 @@ export default function Projects(props) {
     return (
         <>
             <div className=' relative'>
-                    <img src={quotebg} alt="quotebg" className='h-[750px] w-full object-cover blur-sm brightness-50 -skew-y-[4deg] '/>
+                    <img src={quotebg} alt="quotebg" className='h-[750px] w-full object-cover blur-sm brightness-[.3] -skew-y-[4deg] '/>
                     <div className="absolute left-0 right-0 top-28">
                         <Swiper
                             effect={"cards"}

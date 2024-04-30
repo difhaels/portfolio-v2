@@ -37,7 +37,7 @@
 }
 
 .swiper-slide {
-    @apply flex justify-center items-center text-2xl font-bold rounded-3xl text-white bg-[#9370DB] shadow-2xl;
+    @apply flex justify-center items-center text-2xl rounded-3xl text-white bg-[#272932] shadow-2xl;
 }
 .box {
     @apply absolute;

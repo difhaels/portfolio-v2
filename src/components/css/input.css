@@ -39,3 +39,12 @@
 .swiper-slide {
     @apply flex justify-center items-center text-2xl font-bold rounded-3xl text-white bg-[#9370DB] shadow-2xl;
 }
+.box {
+    @apply absolute;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: var(--accent);
+    background-color: red;
+}
+

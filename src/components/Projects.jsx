@@ -15,7 +15,7 @@ import { EffectCards } from "swiper";
 import quotebg from './image/png/quotebg.png';
 
 
-export default function Projects() {
+export default function Projects(props) {
     return (
         <>
             <div className=' relative'>
@@ -29,9 +29,9 @@ export default function Projects() {
                             initialSlide={0}
                             className="mySwiper"
                         >
-                            <SwiperSlide>Slide 1</SwiperSlide>
-                            <SwiperSlide>Slide 2</SwiperSlide>
-                            <SwiperSlide>Slide 3</SwiperSlide>
+                            <SwiperSlide><props.slide1/></SwiperSlide>
+                            <SwiperSlide><props.slide2/></SwiperSlide>
+                            <SwiperSlide><props.slide3/></SwiperSlide>
                         </Swiper>
                     </div>
             </div>

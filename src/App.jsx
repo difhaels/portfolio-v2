@@ -1,16 +1,18 @@
+import './components/css/output.css';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
-import './components/css/output.css';
-
+import Slide1 from './components/projects/Slide1';
+import Slide2 from './components/projects/Slide2';
+import Slide3 from './components/projects/Slide3';
 
 function App() {
   return (<>
     <Navbar/>
     <Home/>
     <Skills/>
-    <Projects/>
+    <Projects slide1={Slide1} slide2={Slide2} slide3={Slide3}/>
   </>);
 }
 

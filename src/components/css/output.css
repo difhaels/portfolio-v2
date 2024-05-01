@@ -645,10 +645,6 @@ video {
   margin: auto;
 }
 
-.m-3 {
-  margin: 0.75rem;
-}
-
 .mx-10 {
   margin-left: 2.5rem;
   margin-right: 2.5rem;
@@ -672,6 +668,16 @@ video {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.mx-16 {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
 }
 
 .mb-20 {
@@ -702,12 +708,12 @@ video {
   margin-top: 1rem;
 }
 
-.mt-8 {
-  margin-top: 2rem;
-}
-
 .mt-7 {
   margin-top: 1.75rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
 }
 
 .flex {
@@ -921,10 +927,6 @@ video {
   border-radius: 0.5rem;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
-}
-
 .border-2 {
   border-width: 2px;
 }
@@ -1077,10 +1079,6 @@ video {
   object-fit: cover;
 }
 
-.p-3 {
-  padding: 0.75rem;
-}
-
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -1111,14 +1109,14 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-}
-
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .pb-8 {
@@ -1223,21 +1221,6 @@ video {
 
 .brightness-50 {
   --tw-brightness: brightness(.5);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.brightness-0 {
-  --tw-brightness: brightness(0);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.brightness-\[\.1\] {
-  --tw-brightness: brightness(.1);
-  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
-}
-
-.brightness-\[\.2\] {
-  --tw-brightness: brightness(.2);
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 

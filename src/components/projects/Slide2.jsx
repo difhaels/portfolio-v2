@@ -11,8 +11,8 @@ export default function Slide2 (){
     return (<>
         <div className='flex mx-10 gap-10 justify-center items-center'>
             <div className='w-2/3'>
-                <h1 className='py-5 font-bold'> Simplicity</h1>
-                <span>Is a personal portfolio website designed with a minimalist design to display your works elegantly. Built with HTML, CSS, and JavaScript, Simplicity offers a responsive experience across devices.</span>
+                <h1 className='py-5 font-bold'>FitLife</h1>
+                <span>Health TrackerDescription:FitLife is a mobile application for tracking physical activity, diet and health statistics. With a user-friendly interface, FitLife helps users plan and achieve their health goals.</span>
                 <h1 className='py-5 font-bold'>Technologies</h1>
                 <div className='grid grid-cols-6 gap-x-10 gap-y-5'>
                     <img src={javascript} alt="javascript" className='w-full'/>

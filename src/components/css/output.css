@@ -573,6 +573,10 @@ video {
   bottom: -110px;
 }
 
+.-bottom-\[380px\] {
+  bottom: -380px;
+}
+
 .-bottom-\[490px\] {
   bottom: -490px;
 }
@@ -637,6 +641,10 @@ video {
   z-index: 10;
 }
 
+.z-20 {
+  z-index: 20;
+}
+
 .z-\[99\] {
   z-index: 99;
 }
@@ -668,16 +676,6 @@ video {
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
-}
-
-.mx-16 {
-  margin-left: 4rem;
-  margin-right: 4rem;
-}
-
-.mx-12 {
-  margin-left: 3rem;
-  margin-right: 3rem;
 }
 
 .mb-20 {
@@ -714,6 +712,10 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-96 {
+  margin-top: 24rem;
 }
 
 .flex {

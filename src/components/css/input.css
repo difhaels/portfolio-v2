@@ -14,6 +14,9 @@
     background: #9370DB;
     color: white;
 }
+.container {
+    @apply mx-auto text-center;
+}
 /* * end */
 
 /* navbar start */

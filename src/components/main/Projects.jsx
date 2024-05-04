@@ -12,7 +12,7 @@ import "swiper/css/effect-cards";
 import { EffectCards } from "swiper";
 
 
-import quotebg from './image/png/quotebg.png';
+import quotebg from '../image/png/quotebg.png';
 
 
 export default function Projects(props) {

@@ -1,15 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { motion, useScroll, useSpring   } from "framer-motion";
 
 export default function Navbar(){
-
-    const { scrollYProgress } = useScroll()
-    const scaleX = useSpring(scrollYProgress, {
-        stiffness: 100,
-        damping: 30,
-        restDelta: 0.001
-    });
-
     const [navScroll, setNavScroll] = useState(false);
 
     useEffect(() => {
@@ -32,7 +23,6 @@ export default function Navbar(){
 
     return (<>
     <div className="relative z-[99]">
-        <motion.path className="fixed top-0 left-0 right-0 h-[10px] bg-[#9370DB] transform origin-top-left" style={{ scaleX, originX: 0}}/>
         <nav className="fixed top-0 left-0 right-0 flex justify-center pt-5 gap-5 text-[1.3rem] font-bold ">
             <div className={`${navScroll ? "navbar-fixed" : "navbar-unfixed"} nav-scroll  flex justify-center gap-3 bg-white bg-opacity-55`}>
                 <a href="yt.com" className="group"><span className="qmark">♔</span><span className="px-1">Home</span><span className="qmark">♕</span></a>

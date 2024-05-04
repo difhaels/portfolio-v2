@@ -1,5 +1,6 @@
 import './components/css/output.css';
 
+import Scroll from './components/absolute/Scroll';
 import Navbar from './components/absolute/Navbar';
 
 import Home from './components/main/Home';
@@ -14,6 +15,7 @@ import ProjectSlide3 from './components/projects/Slide3';
 
 function App() {
   return (<>
+    <Scroll/>
     <Navbar/>
     <Home/>
     <Skills/>

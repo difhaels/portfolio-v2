@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
+import { Link } from 'react-scroll';
 
 export default function Navbar(){
+
     const [navScroll, setNavScroll] = useState(false);
 
     useEffect(() => {
@@ -27,6 +29,7 @@ export default function Navbar(){
             <div className={`${navScroll ? "navbar-fixed" : "navbar-unfixed"} nav-scroll  flex justify-center gap-3 bg-white bg-opacity-55`}>
                 <a href="yt.com" className="group"><span className="qmark">♔</span><span className="px-1">Home</span><span className="qmark">♕</span></a>
                 <a href="yt.com" className="group"><span className="qmark">♗</span><span className="px-1">Skills</span><span className="qmark">♗</span></a>
+                <Link to="home" smooth={true} duration={500}>Home</Link>
                 <a href="yt.com" className="group"><span className="qmark">♖</span><span className="px-1">Projects</span><span className="qmark">♖</span></a>
                 <a href="yt.com" className="group"><span className="qmark">♘</span><span className="px-1">About Me</span><span className="qmark">♘</span></a>
                 <a href="yt.com" className="group"><span className="qmark">♙</span><span className="px-1">Contact</span><span className="qmark">♙</span></a>

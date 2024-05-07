@@ -27,12 +27,21 @@ export default function Navbar(){
     <div className="relative z-[99]">
         <nav className="fixed top-0 left-0 right-0 flex justify-center pt-5 gap-5 text-[1.3rem] font-bold ">
             <div className={`${navScroll ? "navbar-fixed" : "navbar-unfixed"} nav-scroll  flex justify-center gap-3 bg-white bg-opacity-55`}>
-                <a href="yt.com" className="group"><span className="qmark">♔</span><span className="px-1">Home</span><span className="qmark">♕</span></a>
-                <a href="yt.com" className="group"><span className="qmark">♗</span><span className="px-1">Skills</span><span className="qmark">♗</span></a>
-                <Link to="home" smooth={true} duration={500}>Home</Link>
-                <a href="yt.com" className="group"><span className="qmark">♖</span><span className="px-1">Projects</span><span className="qmark">♖</span></a>
-                <a href="yt.com" className="group"><span className="qmark">♘</span><span className="px-1">About Me</span><span className="qmark">♘</span></a>
-                <a href="yt.com" className="group"><span className="qmark">♙</span><span className="px-1">Contact</span><span className="qmark">♙</span></a>
+                <Link to="home" smooth={true} className="group cursor-pointer" duration={500}>
+                    <span className="qmark">♔</span><span className="px-1">Home</span><span className="qmark">♕</span>
+                </Link>
+                <Link to="skills" smooth={true} className="group cursor-pointer" duration={500}>
+                    <span className="qmark">♗</span><span className="px-1">Skills</span><span className="qmark">♗</span>
+                </Link>
+                <Link to="projects" smooth={true} className="group cursor-pointer" duration={500}>
+                    <span className="qmark">♖</span><span className="px-1">Projects</span><span className="qmark">♖</span>
+                </Link>
+                <Link to="about" smooth={true} className="group cursor-pointer" duration={500}>
+                    <span className="qmark">♘</span><span className="px-1">About Me</span><span className="qmark">♘</span>
+                </Link>
+                <Link to="contact" smooth={true} className="group cursor-pointer" duration={500}>
+                    <span className="qmark">♙</span><span className="px-1">Contact</span><span className="qmark">♙</span>
+                </Link>
             </div>
         </nav>
     </div>

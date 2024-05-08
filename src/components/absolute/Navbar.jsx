@@ -27,10 +27,10 @@ export default function Navbar(){
     <div className="relative z-[99]">
         <nav className="fixed top-0 left-0 right-0 flex justify-center pt-5 gap-5 text-[1.3rem] font-bold ">
             <div className={`${navScroll ? "navbar-fixed" : "navbar-unfixed"} nav-scroll  flex justify-center gap-3 bg-white bg-opacity-55`}>
-                <Link to="home" smooth={true} className="group cursor-pointer" duration={500}>
+                <Link to="home" smooth={true} offset={-110} className="group cursor-pointer" duration={500}>
                     <span className="qmark">♔</span><span className="px-1">Home</span><span className="qmark">♕</span>
                 </Link>
-                <Link to="skills" smooth={true} className="group cursor-pointer" duration={500}>
+                <Link to="skills" smooth={true} offset={-110} className="group cursor-pointer" duration={500}>
                     <span className="qmark">♗</span><span className="px-1">Skills</span><span className="qmark">♗</span>
                 </Link>
                 <Link to="projects" smooth={true} className="group cursor-pointer" duration={500}>

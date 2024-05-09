@@ -2,6 +2,7 @@ import './components/css/output.css';
 
 import Scroll from './components/absolute/Scroll';
 import Navbar from './components/absolute/Navbar';
+import ScrollTracker from './components/absolute/ScrollTracker';
 
 import Home from './components/main/Home';
 import Skills from './components/main/Skills';
@@ -15,22 +16,25 @@ import ProjectSlide3 from './components/projects/Slide3';
 
 function App() {
   return (<>
-      <Scroll/>
-      <Navbar/>
-      <div id="home">
-        <Home/>
-      </div>
-      <div id="skills">
-        <Skills/>
-      </div>
-      <div id="projects">
-        <Projects slide1={ProjectSlide1} slide2={ProjectSlide2} slide3={ProjectSlide3}/>
-      </div>
-      <div id="about">
-        <About/>
-      </div>
-      <div id="contact">
-        <Contact/>
+      <div className='relative'>
+        <Scroll/>
+        <ScrollTracker/>
+        <Navbar/>
+        <div id="home">
+          <Home/>
+        </div>
+        <div id="skills">
+          <Skills/>
+        </div>
+        <div id="projects">
+          <Projects slide1={ProjectSlide1} slide2={ProjectSlide2} slide3={ProjectSlide3}/>
+        </div>
+        <div id="about">
+          <About/>
+        </div>
+        <div id="contact">
+          <Contact/>
+        </div>
       </div>
   </>);
 }

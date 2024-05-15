@@ -52,7 +52,7 @@ export default function Home (){
                 >
                     Fullstack Developer based in Indonesian
                 </motion.h1>
-                <h1 className='text-xl pt-3'>My name is Agung Saputra, a fullstack developer with the goal of advancing my career and participating in inspiring projects. Here, I showcase my work and my passion for web development. Let's shape digital solutions together and pave the way for the future!</h1>
+                <h1 className='text-xl pt-3'>My name is Agung Saputra, a Application Developer and a Student. My goal is to become a Fullstack Developer, UI/UX designer, even a Systems Analyst, all of which can help me in developing applications. So that's it, here I will show some of the skills and projects that I have. I hope we can work together.</h1>
                 <div className='flex justify-center gap-3 mt-4'>
                     <a href='yt.com' className='flex justify-center items-center gap-3 bg-[#9370DB] text-slate-50 px-4 py-2 rounded-lg transform transition-transform hover:-translate-y-1 hover:bg-[#CB1DCD]'>
                         <img src={mail} alt="mail" className='h-8 w-8' style={{ filter: 'invert(100%)' }} /> 

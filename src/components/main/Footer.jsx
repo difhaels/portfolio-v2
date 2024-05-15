@@ -1,5 +1,3 @@
-import linkedin from '../image/svg/linkedin.svg';
-
 export default function Footer(){
     return (<>
     <div className="bg-[#272932] mx-auto text-center pt-10 pb-7 text-white">

@@ -17,11 +17,11 @@ export default function Projects(props) {
                             modules={[EffectCards]}
                             loop={true}
                             initialSlide={0}
-                            className="mySwiper"
+                            className="swiper-project"
                         >
-                            <SwiperSlide><props.slide1/></SwiperSlide>
-                            <SwiperSlide><props.slide2/></SwiperSlide>
-                            <SwiperSlide><props.slide3/></SwiperSlide>
+                            <SwiperSlide className="swiper-slide-project"><props.slide1/></SwiperSlide>
+                            <SwiperSlide className="swiper-slide-project"><props.slide2/></SwiperSlide>
+                            <SwiperSlide className="swiper-slide-project"><props.slide3/></SwiperSlide>
                         </Swiper>
                     </div>
                     <div className="absolute -bottom-[380px] right-0 left-0 mx-auto w-1 h-96 bg-[#9370DB]"></div>

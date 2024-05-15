@@ -36,11 +36,11 @@
 }
 /* navbar end */
 
-.swiper {
+.swiper-project {
     @apply w-[55%] h-[550px];
 }
 
-.swiper-slide {
+.swiper-slide-project {
     @apply flex justify-center items-center text-2xl rounded-3xl text-white bg-[#272932] shadow-2xl;
 }
 .box {

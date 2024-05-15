@@ -895,10 +895,6 @@ video {
   width: 19.15%;
 }
 
-.w-\[20\%\] {
-  width: 20%;
-}
-
 .w-\[65\%\] {
   width: 65%;
 }
@@ -1433,12 +1429,12 @@ video {
 
 /* navbar end */
 
-.swiper {
+.swiper-project {
   height: 550px;
   width: 55%;
 }
 
-.swiper-slide {
+.swiper-slide-project {
   display: flex;
   align-items: center;
   justify-content: center;

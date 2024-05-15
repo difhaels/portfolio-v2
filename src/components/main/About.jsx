@@ -12,8 +12,8 @@ export default function About(){
                     <img src={agung} alt="agung saputra" className="rounded-full h-40 w-40 mx-auto border-2" />
                 </div>
                 <div>
-                    <div>
-                        hq  
+                    <div className='w-[20%]'>
+                        
                     </div>
                 </div>
             </div>

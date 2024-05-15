@@ -777,6 +777,14 @@ video {
   margin-top: 24rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .block {
   display: block;
 }
@@ -909,6 +917,10 @@ video {
   width: 100%;
 }
 
+.w-52 {
+  width: 13rem;
+}
+
 .origin-top-left {
   transform-origin: top left;
 }
@@ -982,6 +994,18 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-12 {
+  gap: 3rem;
+}
+
+.gap-16 {
+  gap: 4rem;
+}
+
+.gap-20 {
+  gap: 5rem;
 }
 
 .gap-x-10 {
@@ -1429,6 +1453,8 @@ video {
 
 /* navbar end */
 
+/* project start */
+
 .swiper-project {
   height: 550px;
   width: 55%;
@@ -1450,13 +1476,25 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
-.box {
-  position: absolute;
-  width: 80px;
-  height: 80px;
-  border-radius: 50%;
-  background: var(--accent);
-  background-color: red;
+/* project end */
+
+.swiper-about {
+  height: 10rem;
+  width: 20rem;
+}
+
+.swiper-slide-about {
+  border-radius: 0.75rem;
+  border-width: 4px;
+  --tw-border-opacity: 1;
+  border-color: rgb(220 38 38 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(39 41 50 / var(--tw-bg-opacity));
+  padding: 1rem;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:-translate-y-1:hover {
@@ -1478,4 +1516,3 @@ video {
 .focus\:outline-cyberpunk-purple:focus {
   outline-color: #9370DB;
 }
-

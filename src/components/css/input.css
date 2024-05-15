@@ -49,5 +49,20 @@
     @apply w-80 h-40 ;
 }
 .swiper-slide-about {
-    @apply border-4 border-red-600 p-4 bg-[#272932] text-white text-lg rounded-xl;
+    @apply  p-4 bg-[#272932] text-white text-lg rounded-xl;
+}
+.swiper-slide-about-1 {
+    @apply border-4 border-[#9370DB];
+}
+.swiper-slide-about-2 {
+    @apply border-4 border-[#1AC5B0];
+}
+.swiper-slide-about-3 {
+    @apply border-4 border-red-600;
+}
+.swiper-pagination-bullet-active {
+    background-color: #9370DB !important;
+}
+.swiper-slide-about-mention {
+    @apply font-semibold text-[#1AC5B0];
 }

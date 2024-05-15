@@ -9,6 +9,7 @@ import Skills from './components/main/Skills';
 import Projects from './components/main/Projects';
 import About from './components/main/About';
 import Contact from './components/main/Contact';
+import Footer from './components/main/Footer';
 
 import ProjectSlide1 from './components/projects/Slide1';
 import ProjectSlide2 from './components/projects/Slide2';
@@ -35,6 +36,7 @@ function App() {
         <div id="contact">
           <Contact/>
         </div>
+        <Footer/>
       </div>
   </>);
 }

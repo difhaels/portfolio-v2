@@ -43,7 +43,7 @@ export default function About(){
             </div>
             
             <div className="flex justify-center mb-80">
-                <div className="w-[440px] h-52 border-l-4 border-b-4 border-[#9370DB] mr-[310px] -bottom-56 absolute "></div>
+                <div className="w-[380px] h-52 border-l-4 border-b-4 border-[#9370DB] mr-[375px] -bottom-56 absolute "></div>
             </div>
         </div>
     </>)

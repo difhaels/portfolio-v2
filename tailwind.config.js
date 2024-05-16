@@ -4,7 +4,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'cyberpunk-purple': '#9370DB',
+        'primary': '#7338A0',
       },
     }
   },

@@ -13,9 +13,9 @@
 
 @layer base {
     html {
-      font-family: Tahoma, sans-serif;
+        font-family: Tahoma, sans-serif;
     }
-  }
+}
 ::selection {
     background: #9370DB;
     color: white;

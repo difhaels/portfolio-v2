@@ -11,7 +11,7 @@ export default function Home (){
     return(<>
         <div className='mb-80 relative'>
             <div className='absolute -top-32 left-10'>
-                <div className='bg-[#9370DB] w-1 h-96 mx-auto'></div>
+                <div className='bg-[#005CB3] w-1 h-96 mx-auto'></div>
                 <div className='flex flex-col gap-2 mt-2'>
                     <a href="yt.com">
                         <img src={linkedin} alt="linkedin" className='w-5 h-5 cursor-pointer hover:scale-110'/>
@@ -32,6 +32,8 @@ export default function Home (){
                     </a>
                 </div>
             </div>
+            <div className='absolute -top-32 left-20  w-10 border-l-4 border-b-4 border-[#FE0C23] h-80'></div>
+            <div className='absolute -top-32 left-20  w-10 border-r-4 border-[#03839A] h-44'></div>
             <div className='mt-32 text-center w-1/2 mx-auto'> 
                 <img src={agung} alt="agung saputra" className="rounded-full h-56 w-56 mx-auto border-2" />
                 <div className='flex justify-center items-center gap-3 pt-10'>
@@ -46,7 +48,7 @@ export default function Home (){
                 </div>
                 <motion.h1
                     className="font-bold text-3xl pt-3"
-                    animate={{ color: ["#9370DB", "#CB1DCD", "#E455AE"] }}
+                    animate={{ color: ["#FE0C23", "#0055BF", "#DFCE28"] }}
                     transition={{ repeat: Infinity, duration: 5.0 }} 
                 >
                     Application Developer based in Indonesian

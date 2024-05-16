@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 
 import agung from '../image/png/agung.png';
 import waving from '../image/svg/waving.svg';
-import mail from '../image/svg/mail.svg';
 import github from '../image/svg/github.svg';
 import linkedin from '../image/svg/linkedin.svg';
 import mouse from '../image/svg/mouse.svg';
@@ -53,20 +52,26 @@ export default function Home (){
                     Application Developer based in Indonesian
                 </motion.h1>
                 <h1 className='text-xl pt-3'>My name is Agung Saputra, a Application Developer and a Student. My goal is to become a Fullstack Developer, UI/UX designer, even a Systems Analyst, all of which can help me in developing applications. So that's it, here I will show some of the skills and projects that I have. I hope we can work together.</h1>
-                <div className='flex justify-center gap-3 mt-4'>
-                    <a href='yt.com' className='flex justify-center items-center gap-3 bg-[#9370DB] text-slate-50 px-4 py-2 rounded-lg transform transition-transform hover:-translate-y-1 hover:bg-[#CB1DCD]'>
-                        <img src={mail} alt="mail" className='h-8 w-8' style={{ filter: 'invert(100%)' }} /> 
-                        <span className='text-base font-bold'>Contact Me</span>
+                <div className='flex justify-center gap-5 mt-5'>
+                    <a href='yt.com' className='relative group hover:scale-110 flex justify-center items-center gap-3 bg-[#FE0C23] text-slate-50 px-5 py-3 transform transition-transform'>
+                        <div className="absolute flex group-hover:gap-6">
+                            <div className="h-9 w-16 border-l-4 border-t-2 border-b-2 transform transition-transform border-[#DFCE28]"></div>
+                            <div className="h-9 w-16 border-r-4 border-t-2 border-b-2 transform transition-transform border-[#DFCE28]"></div>
+                        </div>
+                        <span className='text-base uppercase'>Contact Me</span>
                     </a>
-                    <a href='yt.com' className='flex justify-center items-center gap-3 bg-slate-900 text-slate-50 px-4 py-2 rounded-lg transform transition-transform hover:-translate-y-1 hover:bg-[#CB1DCD]'>
-                        <img src={github} alt="github" className='h-8 w-8' style={{ filter: 'invert(100%)' }}/> 
-                        <span className='text-base font-bold'>My Project</span>
+                    <a href='yt.com' className='relative group hover:scale-110 flex justify-center items-center gap-3 bg-[#0055BF] text-slate-50 px-5 py-3 transform transition-transform'>
+                        <div className="absolute flex group-hover:gap-6">
+                            <div className="h-9 w-16 border-l-4 border-t-2 border-b-2 transform transition-transform border-[#DFCE28]"></div>
+                            <div className="h-9 w-16 border-r-4 border-t-2 border-b-2 transform transition-transform border-[#DFCE28]"></div>
+                        </div>
+                        <span className='text-base uppercase'>My Projects</span>
                     </a>
                 </div>
                 <motion.img
                     src={mouse}
                     alt="mouse"
-                    className="w-10 h-10 m-auto mt-8"
+                    className="w-10 h-10 m-auto mt-9"
                     animate={{ y: [0, -8, 0] }} 
                     transition={{ repeat: Infinity, duration: 1.5 }} 
                 />

@@ -9,7 +9,7 @@ export default function Scroll(){
     });
     return (<>
         <div  className="relative z-[99]">
-            <motion.path className="fixed top-0 left-0 right-0 h-[10px] bg-[#9370DB] transform origin-top-left" style={{ scaleX, originX: 0}}/>
+            <motion.path className="fixed top-0 left-0 right-0 h-[10px] bg-primary transform origin-top-left" style={{ scaleX, originX: 0}}/>
         </div>
     </>)
 }

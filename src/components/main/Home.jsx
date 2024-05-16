@@ -50,7 +50,7 @@ export default function Home (){
                     animate={{ color: ["#9370DB", "#CB1DCD", "#E455AE"] }}
                     transition={{ repeat: Infinity, duration: 5.0 }} 
                 >
-                    Fullstack Developer based in Indonesian
+                    Application Developer based in Indonesian
                 </motion.h1>
                 <h1 className='text-xl pt-3'>My name is Agung Saputra, a Application Developer and a Student. My goal is to become a Fullstack Developer, UI/UX designer, even a Systems Analyst, all of which can help me in developing applications. So that's it, here I will show some of the skills and projects that I have. I hope we can work together.</h1>
                 <div className='flex justify-center gap-3 mt-4'>

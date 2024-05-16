@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 
 import agung from '../image/png/agung.png';
 import waving from '../image/svg/waving.svg';
-import linkedin from '../image/svg/linkedin.svg';
 import mail from '../image/svg/mail.svg';
 import github from '../image/svg/github.svg';
+import linkedin from '../image/svg/linkedin.svg';
 import mouse from '../image/svg/mouse.svg';
 import quotebg from '../image/png/quotebg.png';
 
